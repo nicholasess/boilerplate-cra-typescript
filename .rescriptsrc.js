@@ -10,10 +10,7 @@ module.exports = [
           {
             root: ".",
             alias: {
-              "@components": "./src/components",
-              "@pages": "./src/pages",
-              "@helpers": "./src/helpers",
-              "@services": "./src/services"
+              "~": "./src"
             }
           }
         ]
